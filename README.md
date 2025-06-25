@@ -44,4 +44,5 @@ To build and evaluate a **binary classification model** that helps understand th
 
 ## 👩‍💻 Author
 Alisha Kapoor | CSE-AI @ IGDTUW  
-✨ Let's connect on [LinkedIn]((https://www.linkedin.com/in/alisha-kapoor-2ba1bb328/)) 
+✨ Let's connect on [LinkedIn] 
+https://www.linkedin.com/in/alisha-kapoor-2ba1bb328/
