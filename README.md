@@ -1,4 +1,4 @@
-##🛍️ User Purchase Prediction using Machine Learning
+🛍️ User Purchase Prediction using Machine Learning
 This project focuses on predicting whether a user will purchase a product based on Gender, Age, and Estimated Salary using three popular classification models:
 
 ✅ Logistic Regression
@@ -7,95 +7,95 @@ This project focuses on predicting whether a user will purchase a product based 
 
 🌲 Random Forest
 
-## 🎯 Objective
+🎯 Objective
 To build and compare classification models that predict a user’s likelihood of making a purchase, and understand which features influence the decision.
 
-##📊 Dataset
+📊 Dataset
 Source: Social Network Ads Dataset
-Link:https://raw.githubusercontent.com/Oscar4561/Social_Network_Ads.csv/refs/heads/main/Social_Network_Ads.csv
+Link: https://raw.githubusercontent.com/Oscar4561/Social_Network_Ads.csv/refs/heads/main/Social_Network_Ads.csv
 
-**Features**:
+Features:
 
--Gender (encoded: Male = 1, Female = 0)
+Gender (encoded: Male = 1, Female = 0)
 
--2.Age
+Age
 
--EstimatedSalary
+EstimatedSalary
 
-**Target**:
+Target:
 
--Purchased (0 = No, 1 = Yes)
+Purchased (0 = No, 1 = Yes)
 
-##🛠️ Tools & Libraries
--Environment: Python (Google Colab)
+🛠️ Tools & Libraries
+Environment: Python (Google Colab)
 
--Libraries:
+Libraries:
 
-  -pandas, numpy – data processing
+pandas, numpy – data processing
 
-  -matplotlib, seaborn – visualization
+matplotlib, seaborn – visualization
 
-  -scikit-learn – ML modeling & evaluation
+scikit-learn – ML modeling & evaluation
 
-##✅ Workflow Summary
--Data Cleaning
+✅ Workflow Summary
+Data Cleaning
 
--Dropped User ID column
+Dropped User ID column
 
--Encoded Gender (0 = Female, 1 = Male)
+Encoded Gender (0 = Female, 1 = Male)
 
--Data Preparation
+Data Preparation
 
--Defined features (X) and label (y)
+Defined features (X) and label (y)
 
--Train-test split (80/20)
+Train-test split (80/20)
 
--Model Training
+Model Training
 
--Logistic Regression
+Logistic Regression
 
--Decision Tree Classifier
+Decision Tree Classifier
 
--Random Forest Classifier
+Random Forest Classifier
 
--Evaluation Metrics
+Evaluation Metrics
 
--Accuracy Score
+Accuracy Score
 
--Confusion Matrix
+Confusion Matrix
 
--Classification Report (Precision, Recall, F1-Score)
+Classification Report (Precision, Recall, F1-Score)
 
-##📈 Model Performance
--Model	Accuracy	Key Insight
+📈 Model Performance
+Model	Accuracy	Key Insight
 Logistic Regression	88.75%	Great for linearly separable data
 Decision Tree	88.75%	Captures non-linear patterns, more interpretable
 Random Forest	91.25%	Best performer due to ensemble learning
 
-##🔍 Visualizations
--Confusion Matrices for each model
+🔍 Visualizations
+Confusion Matrices for each model
 
--Model-wise bar comparison of accuracy
+Model-wise bar comparison of accuracy
 
--Decision tree structure (using plot_tree)
+Decision tree structure (using plot_tree)
 
--Heatmap & classification reports
+Heatmap & classification reports
 
-##📌 Key Learnings
--How categorical and numerical features affect purchase behavior
+📌 Key Learnings
+How categorical and numerical features affect purchase behavior
 
--Differences between simple and ensemble classifiers
+Differences between simple and ensemble classifiers
 
--Importance of visual evaluation in ML
+Importance of visual evaluation in ML
 
-##🚀 Future Enhancements
--Hyperparameter tuning with GridSearchCV
+🚀 Future Enhancements
+Hyperparameter tuning with GridSearchCV
 
--Feature scaling and dimensionality reduction
+Feature scaling and dimensionality reduction
 
--Try models like KNN, SVM, and XGBoost
+Try models like KNN, SVM, and XGBoost
 
-##👩‍💻 Author
+👩‍💻 Author
 Alisha Kapoor
 B.Tech CSE-AI @ IGDTUW
 🔗 Connect on LinkedIn: https://www.linkedin.com/in/alisha-kapoor-2ba1bb328/
