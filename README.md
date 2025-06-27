@@ -1,101 +1,100 @@
-🛍️ User Purchase Prediction using Machine Learning
-This project focuses on predicting whether a user will purchase a product based on Gender, Age, and Estimated Salary using three popular classification models:
+# 🛍️ User Purchase Prediction using Machine Learning
 
-✅ Logistic Regression
+This project focuses on predicting whether a user will purchase a product based on **Gender**, **Age**, and **Estimated Salary** using three popular classification models:
 
-🌳 Decision Tree
+- ✅ **Logistic Regression**
+- 🌳 **Decision Tree**
+- 🌲 **Random Forest**
 
-🌲 Random Forest
+---
 
-🎯 Objective
+## 🎯 Objective
+
 To build and compare classification models that predict a user’s likelihood of making a purchase, and understand which features influence the decision.
 
-📊 Dataset
-Source: Social Network Ads Dataset
-Link: https://raw.githubusercontent.com/Oscar4561/Social_Network_Ads.csv/refs/heads/main/Social_Network_Ads.csv
+---
 
-Features:
+## 📊 Dataset
 
-Gender (encoded: Male = 1, Female = 0)
+- **Source:** [Social Network Ads Dataset](https://raw.githubusercontent.com/Oscar4561/Social_Network_Ads.csv/refs/heads/main/Social_Network_Ads.csv)
+- **Features:**
+  - `Gender` (encoded: Male = 1, Female = 0)
+  - `Age`
+  - `EstimatedSalary`
+- **Target:**
+  - `Purchased` (0 = No, 1 = Yes)
 
-Age
+---
 
-EstimatedSalary
+## 🛠️ Tools & Libraries
 
-Target:
+- **Environment:** Python (Google Colab)
+- **Libraries:**
+  - `pandas`, `numpy` – data processing
+  - `matplotlib`, `seaborn` – visualization
+  - `scikit-learn` – ML modeling & evaluation
 
-Purchased (0 = No, 1 = Yes)
+---
 
-🛠️ Tools & Libraries
-Environment: Python (Google Colab)
+## ✅ Workflow Summary
 
-Libraries:
+1. **Data Cleaning**
+   - Dropped `User ID` column
+   - Encoded `Gender` (0 = Female, 1 = Male)
 
-pandas, numpy – data processing
+2. **Data Preparation**
+   - Defined features (`X`) and label (`y`)
+   - Train-test split (80/20)
 
-matplotlib, seaborn – visualization
+3. **Model Training**
+   - Logistic Regression
+   - Decision Tree Classifier
+   - Random Forest Classifier
 
-scikit-learn – ML modeling & evaluation
+4. **Evaluation Metrics**
+   - Accuracy Score
+   - Confusion Matrix
+   - Classification Report (Precision, Recall, F1-Score)
 
-✅ Workflow Summary
-Data Cleaning
+---
 
-Dropped User ID column
+## 📈 Model Performance
 
-Encoded Gender (0 = Female, 1 = Male)
+| Model               | Accuracy | Key Insight                                      |
+|--------------------|----------|--------------------------------------------------|
+| Logistic Regression| 88.75%   | Great for linearly separable data               |
+| Decision Tree      | 88.75%   | Captures non-linear patterns, interpretable     |
+| Random Forest      | **91.25%** | Best performer due to ensemble learning        |
 
-Data Preparation
+---
 
-Defined features (X) and label (y)
+## 🔍 Visualizations
 
-Train-test split (80/20)
+- Confusion Matrices for each model
+- Model-wise bar comparison of accuracy
+- Decision tree structure (using `plot_tree`)
+- Heatmap & classification reports
 
-Model Training
+---
 
-Logistic Regression
+## 📌 Key Learnings
 
-Decision Tree Classifier
+- How categorical and numerical features affect purchase behavior
+- Differences between simple and ensemble classifiers
+- Importance of visual evaluation in ML
 
-Random Forest Classifier
+---
 
-Evaluation Metrics
+## 🚀 Future Enhancements
 
-Accuracy Score
+- Hyperparameter tuning with GridSearchCV
+- Feature scaling and dimensionality reduction
+- Try models like KNN, SVM, and XGBoost
 
-Confusion Matrix
+---
 
-Classification Report (Precision, Recall, F1-Score)
+## 👩‍💻 Author
 
-📈 Model Performance
-Model	Accuracy	Key Insight
-Logistic Regression	88.75%	Great for linearly separable data
-Decision Tree	88.75%	Captures non-linear patterns, more interpretable
-Random Forest	91.25%	Best performer due to ensemble learning
-
-🔍 Visualizations
-Confusion Matrices for each model
-
-Model-wise bar comparison of accuracy
-
-Decision tree structure (using plot_tree)
-
-Heatmap & classification reports
-
-📌 Key Learnings
-How categorical and numerical features affect purchase behavior
-
-Differences between simple and ensemble classifiers
-
-Importance of visual evaluation in ML
-
-🚀 Future Enhancements
-Hyperparameter tuning with GridSearchCV
-
-Feature scaling and dimensionality reduction
-
-Try models like KNN, SVM, and XGBoost
-
-👩‍💻 Author
-Alisha Kapoor
-B.Tech CSE-AI @ IGDTUW
-🔗 Connect on LinkedIn: https://www.linkedin.com/in/alisha-kapoor-2ba1bb328/
+**Alisha Kapoor**  
+B.Tech CSE-AI @ IGDTUW  
+🔗 [Connect on LinkedIn](https://www.linkedin.com/in/alisha-kapoor-2ba1bb328/)
